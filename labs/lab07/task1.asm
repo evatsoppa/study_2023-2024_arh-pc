@@ -1,9 +1,9 @@
 %include 'in_out.asm'
 section .data
 msg db "Наименьшее число: ",0h
-A dd '41'
-B dd '62'
-C dd '35'
+A dd '79'
+B dd '83'
+C dd '41'
 section .bss
 min resb 10
 section .text
