@@ -1,52 +1,48 @@
 %include 'in_out.asm'
 section .data
-vvodx: db "Введите x: ",0
-vvoda: db "Введите а: ",0
-vivod: db "Результат: ",0
-
-section .bss
-x: resb 80
-a: resb 80
-
-section .text
+msg1 db "Введите x:",0h
+msg2 db "Введите a:",0h
+msg3 db "Ответ:",0h
+x resb 10
+a resb 10
 global _start
 _start:
-
-mov eax,vvodx
+mov eax,msg1
 call sprint
 mov ecx,x
-mov edx,80
+mov edx,10
 call sread
-
 mov eax,x
-call atoi
+call atoi ; Вызов подпрограммы перевода символа в число
+mov [x],eax ; запись преобразованного числа в 'x'
 
-cmp eax,2
-jg _functionx
-
-mov eax,vvoda
+mov eax,msg2
 call sprint
 mov ecx,a
-mov edx,80
+mov edx,10
 call sread
-
+; —------— Преобразование 'a' из символа в число
 mov eax,a
-call atoi
-jmp _functiona
+call atoi ; Вызов подпрограммы перевода символа в число
+mov [a],eax ; запись преобразованного числа в 'a'
 
-_functiona:
-mov edx,3
-mul edx
-jmp _end
-
-_functionx:
-add eax,-2
-jmp _end
-
-_end:
-mov ecx,eax
-mov eax,vivod
+mov eax,[x]
+mov ebx,[a]
+cmp eax,ebx
+je fin
+jmp fin1
+fin:
+mov eax, msg3
 call sprint
-mov eax,ecx
+mov eax,[x]
+add eax,[a]
 call iprintLF
-call quit
+call quit ; Выход
+fin1:
+mov eax,msg3
+call sprint
+mov eax,[x]
+mov ebx,5
+mul ebx
+call iprintLF
+call quit ; Выход
