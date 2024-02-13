@@ -42,7 +42,8 @@ header-includes:
   * [1132236045@pfur.ru](mailto:1132236045@pfur.ru)
   * <https://github.com/evatsoppa>
 
-![Screenshot_728](https://github.com/evatsoppa/study_2023-2024_arh-pc/assets/145338773/985f5d7f-c835-4445-aacd-edfd377f2bef)
+![image](https://github.com/evatsoppa/study_2023-2024_arh-pc/assets/145338773/cdf537af-fa36-4ac4-8137-d7ea9dfb89d5)
+
 
 
 # Вводная часть
