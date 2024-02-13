@@ -45,7 +45,8 @@ header-includes:
 :::
 ::: {.column width="30%"}
 
-![](./image/kulyabov.jpg)
+![image](https://github.com/evatsoppa/study_2023-2024_arh-pc/assets/145338773/faf76dfe-a4e6-43fb-a7fc-520e02269d18)
+
 
 :::
 ::::::::::::::
