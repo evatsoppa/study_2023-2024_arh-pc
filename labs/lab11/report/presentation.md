@@ -39,8 +39,8 @@ header-includes:
   * Студентка
   * НКАбд-06-23
   * Российский университет дружбы народов
-  * [kulyabov-ds@rudn.ru](mailto:kulyabov-ds@rudn.ru)
-  * <https://yamadharma.github.io/ru/>
+  * [1132236045@pfur.ru](mailto:1132236045@pfur.ru)
+  * <https://github.com/evatsoppa>
 
 :::
 ::: {.column width="30%"}
