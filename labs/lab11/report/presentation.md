@@ -161,7 +161,7 @@ header-includes:
 
    ![image](https://avatars.dzeninfra.ru/get-zen_doc/1525719/pub_64fef0304da54464ade7520d_64fef0446c8f414dc3998339/scale_1200)
    
-## Список литературы
+## 4.6 Список литературы
 
 1. https://ru.wikipedia.org/wiki/DNS
 2. https://vc.ru/dev/839349-dns-chto-eto-takoe-dns-server-dns-protokol-i-kak-eto-rabotaet-prostymi-slovami
